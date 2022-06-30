@@ -1,0 +1,44 @@
+@import '../../variables';
+
+.button {
+    background-color: $primary-color;
+    color: $light-color;
+
+    width: max(90px, 8vw);
+    height: 54px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: $font-family;
+    cursor: pointer;
+    // padding: 0 2rem;
+    // margin: 0 1rem;
+
+    &:hover {
+        background-color: $secondary-color;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    &--light {
+        background-color: $light-color;
+        color: $primary-color;
+
+        width: max(75px, 8vw);
+        height: 54px;
+        border: 0;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: $font-family;
+        cursor: pointer;
+        // padding: 0 2rem;
+        // margin: 0;
+
+        &:hover {
+            background-color: $secondary-color;
+            transition: background-color 0.3s ease-in-out;
+            color: $light-color;
+        }
+    }
+
+
+}

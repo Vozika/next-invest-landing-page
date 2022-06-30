@@ -1,9 +1,14 @@
 import "./App.scss";
+import { Footer, CTA, Graph, Offerings, Header } from "./containers";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hell no, world!</h1>
+      <Header />
+      <Offerings />
+      <Graph />
+      <CTA />
+      <Footer />
     </div>
   );
 }
