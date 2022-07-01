@@ -1,0 +1,40 @@
+@import '../../variables';
+
+.cta {
+
+    &__grid-container {
+        display: grid;
+        grid-template-columns: 10% repeat(2, 1fr) 10%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        align-items: center;
+        padding: 50px 20px;
+    }
+
+    &__image {
+        width: 30vw;
+        justify-self: center;
+
+        &-form {
+            width: 100%;
+            align-self: start;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cta__grid-container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px 20px;
+    }
+
+    .cta__image {
+        width: 95%;
+
+        &-form {
+            display: none;
+        }
+    }
+}

@@ -10,7 +10,7 @@ const Header = () => {
 
       <div className="header__grid-container">
         <div className="header__grid-item--left">
-          <div className="header__circle"></div>
+          <div className="header__circle pulsate-bck"></div>
           <div className="header__text-container">
             <h1>Meaningful investments in Main Street businesses</h1>
             <p>
@@ -19,9 +19,9 @@ const Header = () => {
             <Button text="Get Started" class="button" />
           </div>
         </div>
-        <div className="header__grid-item--right">
-          <img src={Arrows} className="header__img-arrows" alt="Arrows" />
-        </div>
+        
+          <img src={Arrows} className="header__grid-item--right" alt="Arrows" />
+        
       </div>
     </div>
   );

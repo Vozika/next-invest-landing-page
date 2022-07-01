@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Offerings />
-      <Graph />
+      {/* <Offerings />
+      <Graph /> */}
       <CTA />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
