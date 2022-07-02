@@ -1,0 +1,75 @@
+@import '../../variables';
+
+.graph {
+
+    &__grid-container {
+        display: grid;
+        grid-template-columns: 10% repeat(2, 1fr) 10%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        align-items: center;
+        padding: 0;
+        
+        background: url(images/background-shape.svg), $accent-color;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: 30%;
+    }
+
+    &__grid-item--4 {
+        height: 100%;
+        align-self: start;
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__image {
+        width: 30vw;
+        justify-self: center;
+        margin: 50px 0px;
+
+        &-circle {
+            width: 90%;
+            position: relative;
+            right: 20%; 
+        }
+
+        &-arrow-icon {
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+        }
+
+        &-dots {
+            width: 25%;
+            padding-bottom: 4vw;
+            position: relative;
+            right: 20%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .graph__grid-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        background: $accent-color;
+    }
+
+    .graph__image {
+        width: 95%;
+        margin: 20px 0px;
+
+        &-circle {
+            display: none;
+        }
+
+        &-arrow-icon {
+            padding-top: 2vw;
+        }
+    }
+}
