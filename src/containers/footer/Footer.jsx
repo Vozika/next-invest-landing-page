@@ -11,15 +11,16 @@ const Footer = () => {
   return (
     <div className="footer__grid-container">
       <div className="footer__grid-item"></div>
-      <div className="footer__grid-item">
+      <div className="footer__grid-item--logo">
         <p className="footer__logo">Next Invest</p>
         <p>
           Copyright &copy; 2022.
           <br />
-          LogoIpsum. All rights reserved.
+          LogoIpsum. All rights reserved.<br /><br /><br /><br />
         </p>
+        <h3>Subscribe to our newsletter</h3>
       </div>
-      <div className="footer__grid-item">
+      <div className="footer__grid-item--services">
         <p>
           <strong>Services</strong>
         </p>
@@ -35,7 +36,7 @@ const Footer = () => {
         <a href="#">Offline</a>
       </div>
 
-      <div className="footer__grid-item">
+      <div className="footer__grid-item--about">
         <p>
           <strong>About</strong>
         </p>
@@ -60,10 +61,9 @@ const Footer = () => {
 
       {/* The Second Row */}
       <div className="footer__grid-item"></div>
-      <div className="footer__grid-item">
-        <h3>Subscribe to our newsletter</h3>
-        <input type="email"></input>
-        <Button text="Subscribe" class="button" />
+      <div className="footer__grid-item--subscribe">
+        
+        <input type="email" placeholder="your email"></input><Button text="Subscribe" class="button" />
       </div>
 
       <div className="footer__grid-item"></div>
