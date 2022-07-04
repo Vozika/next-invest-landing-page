@@ -63,7 +63,7 @@ const Footer = () => {
       <div className="footer__grid-item"></div>
       <div className="footer__grid-item--subscribe">
         
-        <input type="email" placeholder="your email"></input><Button text="Subscribe" class="button" />
+        <input type="email" placeholder=" your email"></input><Button text="Subscribe" class="button" />
       </div>
 
       <div className="footer__grid-item"></div>
