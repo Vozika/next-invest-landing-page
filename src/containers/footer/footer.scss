@@ -1,0 +1,53 @@
+@import '../../variables';
+
+.icon {
+    width: 50px;
+}
+
+.footer {
+
+    &__grid-container {
+
+        display: grid;
+        grid-template-columns: 10% 1.5fr repeat(2, 1fr) repeat(2, 10%);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: $neutral-color;
+        width: 100%;
+        height: 400px;
+        padding-top: 20px;
+
+        
+
+
+    }
+
+    &__grid-item {
+
+        
+
+        &--back {
+            display: flex;
+            align-items: flex-start;            
+            flex-direction: column; 
+            padding-top: 15px;
+        }
+
+        &--social {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+    }
+
+    &__logo {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        padding: 0;
+        margin-top: 15px;
+        
+    }
+}

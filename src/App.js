@@ -8,7 +8,7 @@ function App() {
       {/* <Offerings /> */}
       <Graph />
       <CTA />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
