@@ -10,6 +10,7 @@ import { IconContext } from "react-icons";
 const Footer = () => {
   return (
     <div className="footer__grid-container">
+      {/* The First Row */}
       <div className="footer__grid-item"></div>
       <div className="footer__grid-item--logo">
         <p className="footer__logo">Next Invest</p>

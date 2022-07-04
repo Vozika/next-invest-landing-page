@@ -14,7 +14,7 @@
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         background-color: $neutral-color;
-        height: 400px;
+        height: 300px;
         padding-top: 20px;
     }
 
@@ -68,18 +68,9 @@
 
         &__grid-item {
 
-            &--logo>h3 {
-                display: none;
-            }
-
-            &--logo p>br {
-                display: none;
-            }
-
-            &--social {
-                display: none;
-            }
-
+            &--logo>h3,
+            &--logo p>br,
+            &--social,
             &--subscribe {
                 display: none;
             }
