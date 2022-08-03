@@ -5,6 +5,7 @@ body {
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
   background-color: $light-color;
+  font-size: 20px;
 }
 
 code {
@@ -23,6 +24,8 @@ a:hover {
   color: $secondary-color;
 }
 
-// a:visited {
-//   color: $dark-color;
-// }
+@media screen and (min-width: 2560px) {
+  body {
+    font-size: 25px;
+  }
+  }

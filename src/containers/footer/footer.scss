@@ -81,3 +81,13 @@
         }
     }
 }
+
+@media screen and (min-width: 2560px) {
+    .footer {
+        &__grid-container {
+            
+            height: 450px;
+            
+        }
+    }
+    }
